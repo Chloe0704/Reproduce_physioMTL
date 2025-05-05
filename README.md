@@ -51,7 +51,7 @@ Or download it to local:
 We reproduced the RMSE comparision results from the original paper across 20%, 40%, 60%, and 80% training data. The results match closely, especially under low-data regimes, confirming the benefit of optimal transport regularization. However, the reproduced counterfactual plots showed deviations: HRV did not consistently decrease with age as seen in the paper, possibly due to different hyperparameter choices, input scaling, or optimization variance.
 
 
-## ⚠Reproducibility Notes
+## Reproducibility Notes
 
 Some variance in results due to lack of random seed control.
 
@@ -60,7 +60,7 @@ Counterfactual visualizations generally follow expected trends, but do not alway
 Age-dependent HRV decrease seen in the paper was weaker or reversed in some reproduction plots.
 
 
-## 🔍 Interpretability Extensions
+## Interpretability Extensions
 
 SHAP (Local Feature Attribution)
 
@@ -83,12 +83,12 @@ Visualization
 We compared SHAP and attention side-by-side to validate consistency across instance-level and model-level interpretations.
 
 
-## 📊 Counterfactual Analysis
+## Counterfactual Analysis
 
 We simulated changes in demographic features (e.g., increasing age or reducing sleep) and visualized how predicted HRV curves shift over a 24-hour period. While general trends were visible, some deviations from the original paper's plots were observed, particularly for age and stress. This suggests sensitivity to model initialization, feature scaling, or data preprocessing differences.
 
 
-## 👩‍💼 Authors
+## Authors
 
 Meilin Liu
 
