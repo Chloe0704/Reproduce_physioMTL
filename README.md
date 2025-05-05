@@ -26,15 +26,15 @@ Extend the model by adding interpretability techniques using SHAP and Attention 
 └── README.md                      # You're here
 
 ## Dependencies
-Python 3.9
-Mutar (0.0.1)
-Numpy (1.22.4)
-Pandas (1.5.3)
-Matplotlib (3.7.1)
-Pot (0.9.0)
-Scipy (1.10.1)
-PyTorch (2.6.0)
-SHAP (0.47.2)
+* Python 3.9
+* Mutar (0.0.1)
+* Numpy (1.22.4)
+* Pandas (1.5.3)
+* Matplotlib (3.7.1)
+* Pot (0.9.0)
+* Scipy (1.10.1)
+* PyTorch (2.6.0)
+* SHAP (0.47.2)
 
 
 ## 🚀 How to Run
